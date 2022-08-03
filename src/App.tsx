@@ -6,6 +6,7 @@ import {
   ReviewThemes,
   SingleThemeReview,
   TeamPerformancePage,
+  WorkHoursPage,
 } from "./pages";
 
 function App() {
@@ -21,9 +22,8 @@ function App() {
         <Routes>
           <Route path="/" element={<TeamPerformancePage />} />
           <Route path="/notifications" element={<NotificationsPage />} />
+          <Route path="/work-hours" element={<WorkHoursPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/review-theme" element={<ReviewThemes />} />
-          <Route path="/theme" element={<SingleThemeReview />} />
         </Routes>
       </Router>
     </>

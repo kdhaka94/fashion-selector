@@ -5,22 +5,30 @@ import { Typography } from "../Typography";
 import classes from "./styles.module.css";
 
 const LINKS = [
-  { icon: "/assets/images/case-icon.webp", name: "Work Hours", link: "" },
+  {
+    icon: "/assets/images/case-icon.webp",
+    name: "Work Hours",
+    link: "/work-hours",
+  },
   { icon: "/assets/images/cart-icon.webp", name: "OSP", link: "" },
-  { icon: "/assets/images/bell-icon.webp", name: "Notification", link: "/notifications" },
+  {
+    icon: "/assets/images/bell-icon.webp",
+    name: "Notification",
+    link: "/notifications",
+  },
   {
     icon: "/assets/images/performance-icon.webp",
     name: "Team Performance",
-    link: "",
+    link: "/",
   },
-  { icon: "/assets/images/logout-icon.webp", name: "Logout", link: "" },
+  { icon: "/assets/images/logout-icon.webp", name: "Logout", link: "/login" },
 ];
 
 export enum SIDEBAR_ACTIVES {
   "Work Hours" = 0,
   "OSP" = 1,
   "Notification" = 2,
-  "Team Performance " = 3,
+  "Team Performance" = 3,
   "Logout" = 4,
 }
 

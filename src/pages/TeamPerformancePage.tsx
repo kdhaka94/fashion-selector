@@ -8,7 +8,7 @@ export const TeamPerformancePage = () => {
     <>
       <Container
         bgColor="#f7faff"
-        layout={{ active: SIDEBAR_ACTIVES["Team Performance "] }}
+        layout={{ active: SIDEBAR_ACTIVES["Team Performance"] }}
       >
         <TeamPerformance />
       </Container>

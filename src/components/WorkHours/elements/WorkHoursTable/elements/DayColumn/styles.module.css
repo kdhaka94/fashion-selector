@@ -1,0 +1,50 @@
+.container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.day {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.54;
+  letter-spacing: normal;
+  text-align: right;
+  color: #242424;
+}
+
+.selection {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.06;
+  letter-spacing: normal;
+  color: #242424;
+}
+
+.bluedot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #6e62e3;
+}
+
+.selectionContainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 26px;
+  border-radius: 8px;
+  width: 600px;
+}
+
+.notificationInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.notificationActions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
