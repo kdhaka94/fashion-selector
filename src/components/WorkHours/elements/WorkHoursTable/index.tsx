@@ -216,7 +216,7 @@ export const WorkHoursTable = () => {
                     index === 0
                       ? REASON_COLORS["Sunday"]
                       : day.reason
-                      ? REASON_COLORS[day.reason as any]
+                      ? REASON_COLORS[day.reason as keyof typeof REASON_COLORS]
                       : "white",
                 }}
               />
