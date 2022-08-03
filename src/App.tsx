@@ -1,6 +1,12 @@
 import Cookies from "js-cookie";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { HomePage, LoginPage, ReviewThemes, SingleThemeReview } from "./pages";
+import {
+  LoginPage,
+  NotificationsPage,
+  ReviewThemes,
+  SingleThemeReview,
+  TeamPerformancePage,
+} from "./pages";
 
 function App() {
   // TODO : Remove the sketchy login mechanism
@@ -13,7 +19,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<TeamPerformancePage />} />
+          <Route path="/notifications" element={<NotificationsPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/review-theme" element={<ReviewThemes />} />
           <Route path="/theme" element={<SingleThemeReview />} />

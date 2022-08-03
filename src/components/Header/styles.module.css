@@ -6,6 +6,8 @@
   line-height: 2.75;
   letter-spacing: normal;
   color: #121212;
+  display: flex;
+  align-items: center;
 }
 
 .navbar {

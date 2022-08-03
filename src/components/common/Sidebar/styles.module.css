@@ -1,0 +1,38 @@
+.sidebar {
+  background-color: white;
+  position: relative;
+  margin-top: 48px;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 40px;
+  position: sticky;
+  top: 0;
+}
+
+.sidebarItem:hover {
+  background-color: #f5f5f5;
+}
+.sidebarItem {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  transition: 0.4s;
+  padding-left: 32px;
+  height: 46px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f5f5f5;
+}

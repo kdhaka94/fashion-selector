@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 32px 28px;
+  border-radius: 8px;
+  border: solid 1px #efefef;
+  background-color: #fff;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+}
