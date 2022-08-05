@@ -1321,6 +1321,13 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@flaticon/flaticon-uicons@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@flaticon/flaticon-uicons/-/flaticon-uicons-1.7.0.tgz#6eb896fbadb3d04e0dfdb1432bc13a5002caa05e"
+  integrity sha512-bpcvplYZs8Wt5yIPeeOF41vwUaZeDQvJAlKJN9UQidS8xqTF2Cjkh7IZ4WcKNnSWeczslP0NgXwegS9VeR21tw==
+  optionalDependencies:
+    esbuild-linux-64 "^0.14.5"
+
 "@hookform/resolvers@^2.9.6":
   version "2.9.6"
   resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.9.6.tgz#db4277a96d1817d94169108167014926d8a10398"
@@ -4467,6 +4474,11 @@ es-to-primitive@^1.2.1:
     is-callable "^1.1.4"
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
+
+esbuild-linux-64@^0.14.5:
+  version "0.14.53"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.14.53.tgz#ab3f2ee2ebb5a6930c72d9539cb34b428808cbe4"
+  integrity sha512-pP/FA55j/fzAV7N9DF31meAyjOH6Bjuo3aSKPh26+RW85ZEtbJv9nhoxmGTd9FOqjx59Tc1ZbrJabuiXlMwuZQ==
 
 escalade@^3.1.1:
   version "3.1.1"
