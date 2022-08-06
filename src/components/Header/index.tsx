@@ -7,6 +7,7 @@ import { Sidebar } from "@components/common/Sidebar";
 export const Header = ({
   username = "Kuldeep",
   profileImage = "https://mui.com/static/images/avatar/1.jpg",
+  headerName = "Fashion Selector",
 }) => {
   const open = useStore((state) => state.sidebarOpen);
   const toggleSidebar = useStore((state) => state.toggleSidebar);
@@ -18,7 +19,7 @@ export const Header = ({
           <IconButton onClick={toggleSidebar}>
             {open ? <CloseRoundedIcon /> : <MenuRoundedIcon />}
           </IconButton>
-          Fashion Selector
+          {headerName}
         </div>
         <div className={classes.userInfoContainer}>
           Hi {username},{" "}

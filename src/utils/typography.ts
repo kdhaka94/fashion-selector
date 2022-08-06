@@ -64,7 +64,7 @@ export const typography:
     fontWeight: 300,
     fontStretch: "normal",
     fontStyle: "normal",
-    lineHeight: 1.08,
+    lineHeight: 1.33,
     letterSpacing: "normal",
     color: "#000",
   },

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imgContainer {
+  border-radius: 4px;
+
+  background-color: #fff;
+  padding: 15px;
+}

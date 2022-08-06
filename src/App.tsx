@@ -2,8 +2,11 @@ import Cookies from "js-cookie";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   LoginPage,
-  NotificationsPage, TeamPerformancePage,
-  WorkHoursPage
+  NotificationsPage,
+  OSPPage,
+  ProfilePage,
+  TeamPerformancePage,
+  WorkHoursPage,
 } from "./pages";
 
 function App() {
@@ -20,6 +23,8 @@ function App() {
           <Route path="/" element={<TeamPerformancePage />} />
           <Route path="/notifications" element={<NotificationsPage />} />
           <Route path="/work-hours" element={<WorkHoursPage />} />
+          <Route path="/osp" element={<OSPPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/login" element={<LoginPage />} />
         </Routes>
       </Router>

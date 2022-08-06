@@ -10,7 +10,7 @@ const LINKS = [
     name: "Work Hours",
     link: "/work-hours",
   },
-  { icon: "/assets/images/cart-icon.webp", name: "OSP", link: "" },
+  { icon: "/assets/images/cart-icon.webp", name: "OSP", link: "/osp" },
   {
     icon: "/assets/images/bell-icon.webp",
     name: "Notification",
@@ -34,6 +34,15 @@ export enum SIDEBAR_ACTIVES {
 
 const DRAWER_WIDTH = "258px";
 
+const VARIANTS = {
+  open: {
+    x: 0,
+  },
+  closed: {
+    x: "auto",
+  },
+};
+
 export const Sidebar = ({
   active = SIDEBAR_ACTIVES["Work Hours"],
 }: {
@@ -46,22 +55,22 @@ export const Sidebar = ({
   }
 
   return (
-    <AnimatePresence>
-      <motion.div
-        layout
-        style={{ width: !open ? 0 : DRAWER_WIDTH }}
-        transition={{
-          duration: 1,
-        }}
-        className={classes.sidebar}
-      >
-        <div className={classes.container}>
-          {LINKS.map((item, index) => (
-            <SidebarItem item={item} active={index === active} />
-          ))}
-        </div>
-      </motion.div>
-    </AnimatePresence>
+    <motion.div
+      layout
+      animate={open ? "open" : "closed"}
+      transition={{
+        duration: 1,
+      }}
+      style={{ minWidth: DRAWER_WIDTH }}
+      variants={VARIANTS}
+      className={classes.sidebar}
+    >
+      <div className={classes.container}>
+        {LINKS.map((item, index) => (
+          <SidebarItem item={item} active={index === active} />
+        ))}
+      </div>
+    </motion.div>
   );
 };
 

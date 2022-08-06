@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+  gap: 23px;
+  overflow-x: scroll;
+  overflow-y: visible;
+}

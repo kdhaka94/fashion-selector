@@ -5,3 +5,5 @@ export * from "./SingleThemeReview";
 export * from "./TeamPerformancePage";
 export * from "./Notifications";
 export * from "./WorkHours";
+export * from "./Profile";
+export * from "./OSP";
