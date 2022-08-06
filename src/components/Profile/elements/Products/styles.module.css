@@ -1,6 +1,46 @@
 .container {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.switchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.productsContainer {
+  display: flex;
   gap: 23px;
   overflow-x: scroll;
   overflow-y: visible;
+}
+
+.switch {
+  display: flex;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 2px 5px;
+}
+
+.singleSwitch {
+  position: relative;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+
+.switchBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6e62e3;
+  border-radius: 8px;
+}
+
+.genderText {
+  position: inherit;
+  z-index: 2;
+  transition: ease-in 0.25s;
 }

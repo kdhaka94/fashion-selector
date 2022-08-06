@@ -35,12 +35,8 @@ export enum SIDEBAR_ACTIVES {
 const DRAWER_WIDTH = "258px";
 
 const VARIANTS = {
-  open: {
-    x: 0,
-  },
-  closed: {
-    x: "auto",
-  },
+  open: {},
+  closed: {},
 };
 
 export const Sidebar = ({

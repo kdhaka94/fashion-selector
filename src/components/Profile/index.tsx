@@ -1,4 +1,3 @@
-import { Typography } from "@components/common";
 import { Header } from "@components/Header";
 import React from "react";
 import { Products } from "./elements/Products";
