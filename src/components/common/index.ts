@@ -8,3 +8,4 @@ export * from "./Modal";
 export * from "./TextField";
 export * from "./Typography";
 export * from "./Image";
+export * from "./Checkbox";

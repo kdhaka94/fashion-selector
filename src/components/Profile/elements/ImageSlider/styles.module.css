@@ -1,0 +1,61 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.container {
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+
+.heading{
+  margin: 25px 24px 18px 42px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.buttonYes{
+  width: 94px;
+  height: 32px;
+  margin: 0px 8px;
+  padding: 8px 36px 7px;
+  border-radius: 8px;
+  background-color: #6e62e3;
+  color: white;
+}
+.buttonNo{
+  height: 32px;
+  margin: 0px 8px;
+  padding: 8px 36px 7px;
+  border-radius: 8px;
+}
+.innerContainer{
+  display: flex;
+  position: relative;
+}
+.btnprev{
+  position: relative;
+  margin-right: 50px;
+}
+.btnnext{
+  position: relative;
+}
+
+.prevImage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nextImage{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.alicecarousel{
+  width: 30%;
+}
